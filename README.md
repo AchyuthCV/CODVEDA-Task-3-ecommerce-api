@@ -53,17 +53,33 @@ Relationships implemented using MongoDB ObjectId references and populated using 
 
 ---
 
-## 🔧 CRUD Operations
+## 🔧 CRUD Operations Performed
+
+### 🏷 Categories
+
+| Method | Endpoint           | Description        |
+|--------|-------------------|--------------------|
+| POST   | /api/categories   | Create category    |
+
+---
+
+### 👤 Users (Sellers)
+
+| Method | Endpoint       | Description    |
+|--------|---------------|----------------|
+| POST   | /api/users    | Create seller  |
+
+---
 
 ### 📦 Products
 
-| Method | Endpoint                  | Description        |
-|--------|--------------------------|--------------------|
-| POST   | /api/products            | Create product     |
-| GET    | /api/products            | Get all products   |
-| GET    | /api/products/:id        | Get product by ID  |
-| PUT    | /api/products/:id        | Update product     |
-| DELETE | /api/products/:id        | Delete product     |
+| Method | Endpoint               | Description        |
+|--------|------------------------|--------------------|
+| POST   | /api/products          | Create product     |
+| GET    | /api/products          | Get all products   |
+| GET    | /api/products/:id      | Get product by ID  |
+| PUT    | /api/products/:id      | Update product     |
+| DELETE | /api/products/:id      | Delete product     |
 
 ---
 
